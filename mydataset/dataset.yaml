@@ -1,0 +1,6 @@
+path: mydataset
+train: images/train
+val: images/val
+
+nc: 3
+names: ['pen', 'book', 'calculator']
