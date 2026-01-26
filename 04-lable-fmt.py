@@ -83,9 +83,7 @@ def _process_image(data, output_dir, split_type, counter):
     if not file_name or not image_url:
         return None
     
-    # 生成新文件名（根据你的需求选择一种方案）
-    
-    # 方案1: 使用序号 + 时间戳
+    # 生成新文件名
     timestamp = int(time.time() * 1000) % 1000000
     new_filename = f"{split_type}_{counter:04d}_{timestamp}.jpg"
     
