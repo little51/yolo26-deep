@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 model = YOLO("yolo26s.pt")
 results = model.train(data="mydataset/dataset.yaml",
                       device="cuda",
-                      epochs=200,
+                      epochs=500,
                       imgsz=640,
                       batch=1,
                       workers=0)
