@@ -8,6 +8,6 @@ results = model.train(data="mydataset/dataset.yaml",
                       imgsz=640,
                       batch=1,
                       workers=0)
-results = model("image02.png")
+results = model("image02.png",conf=0.4)
 plt.imshow(results[0].plot())
 plt.show()
