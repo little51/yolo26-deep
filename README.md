@@ -38,6 +38,10 @@ python 09-segment-yoloe.py
 python 10-class-base.py
 # 11、分类训练
 python 11-class-train.py
+# 12、自定义数据分类训练
+python 12-custom-train.py
+# 13、自动标注
+python 13-auto-annotate.py
 ```
 
 ![](https://gitclone.com/download1/aliendao/weixin-aliendao.jpg)
